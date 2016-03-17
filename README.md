@@ -13,7 +13,7 @@ Cordova Install Note:
 1. register kakao app on kakao developers(https://developers.kakao.com/apps)
 2. get hash value from your kakao app, native app key
 3. clone this project, $git clone https://github.com/lihak/KakaoTalkCordovaPlugin
-4. cordova plugin add, $cordova plugin -d add ./KakaoTalkCordovaPlugin --variable KAKAO_APP_KEY=%YOUR_APP_KEY%
+4. cordova plugin add, $cordova plugin -d add ./KakaoTalkCordovaPlugin --variable KAKAO_APP_KEY="YOUR_APP_KEY"
 
 Kakao developers for android webpage: https://developers.kakao.com/docs/android#getting-started-launch-sample-app
 
