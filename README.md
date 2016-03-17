@@ -8,13 +8,17 @@ Make sure you've registered your app with Kakao and to have an KAKAO_APP_KEY
 Cordova Install Note:
 ========================
 
-__Android
+###Android
 
-nothing to do ;-)
-But the Android app must register key hash(https://developers.kakao.com/docs/android#getting-started-launch-sample-app)
+1. register kakao app on kakao developers(https://developers.kakao.com/apps)
+2. get hash value from your kakao app, native app key
+3. clone this project, $git clone https://github.com/lihak/KakaoTalkCordovaPlugin
+4. cordova plugin add, $cordova plugin -d add ./KakaoTalkCordovaPlugin --variable KAKAO_APP_KEY=%YOUR_APP_KEY%
+
+Kakao developers for android webpage: https://developers.kakao.com/docs/android#getting-started-launch-sample-app
 
 
-__iOS
+###iOS
 
 1. Install Kakao SDK (https://developers.kakao.com/docs/ios)
 2. Add following code to appDelegate
